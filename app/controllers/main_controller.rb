@@ -3,6 +3,8 @@ class MainController < ApplicationController
 	require 'checking_account.rb'
 
 	def play
+		x = 4
+		
 		ba = BankAccount.new('David', 123, 5000)
 
 		ba.deposit(500)
