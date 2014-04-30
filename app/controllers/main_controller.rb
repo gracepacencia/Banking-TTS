@@ -4,7 +4,7 @@ class MainController < ApplicationController
 
 	def play
 		x = 4
-		
+		y = 4
 		ba = BankAccount.new('David', 123, 5000)
 
 		ba.deposit(500)
